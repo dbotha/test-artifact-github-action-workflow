@@ -19,7 +19,7 @@ jobs:
         with:
           lfs: true
       - name: Checkout LFS objects
-          run: git lfs checkout
+        run: git lfs checkout
       - name: Build WebRTC
         run: echo "*Fake Building*"
       - name: Upload Artifact
@@ -51,7 +51,7 @@ jobs:
         with:
           lfs: true
       - name: Checkout LFS objects
-          run: git lfs checkout
+        run: git lfs checkout
       - name: Build WebRTC
         run: echo "*Fake Building*"
       - name: Upload Artifact
