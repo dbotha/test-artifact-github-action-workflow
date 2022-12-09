@@ -66,5 +66,9 @@ jobs:
     steps:
       - name: Download all workflow run artifacts
         uses: actions/download-artifact@v3
-      - name: List Artifacts
+      - name: Tree Artifacts
         run: tree .
+      - name: ls Artifacts
+        run: ls -la
+      - name: filetype
+        run: file webrtc.ios-release.tar.gz
